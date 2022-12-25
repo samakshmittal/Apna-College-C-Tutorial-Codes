@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a=6;
+    int a=9;
     float pi=3.14;
     char x='*';
     printf("%d\n", a);
