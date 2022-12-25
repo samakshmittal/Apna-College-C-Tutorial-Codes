@@ -13,7 +13,7 @@ int main(){
         printf("B");
     }
     else if (n<30 && n>=0){
-        printf("C");
+        printf("C Or Fail");
     }
     else{
         printf("Invalid input");
