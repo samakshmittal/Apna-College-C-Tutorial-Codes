@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    int a, b, c;
+    int m, b, c;
     printf("Enter a, b, c");
-    scanf("%d", &a);
+    scanf("%d", &m);
     scanf("%d", &b);
     scanf("%d", &c);
-    printf("%d", (a+b+c)/3);
+    printf("%d", (m+b+c)/3);
     return 0;
 }
