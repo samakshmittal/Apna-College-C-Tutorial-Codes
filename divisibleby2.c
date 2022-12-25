@@ -4,6 +4,6 @@ int main(){
     int a;
     printf("Enter a");
     scanf("%d", &a);
-    printf("%d", (a%2==0));
+    printf("%d", a%2==0);
     return 0;
 }
