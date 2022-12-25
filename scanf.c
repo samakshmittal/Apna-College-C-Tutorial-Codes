@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int age;
+    int a;
     printf("Enter age");
-    scanf("%d", &age);
-    printf("%d", age);
+    scanf("%d", &a);
+    printf("%d", a);
     return 0;
 }
