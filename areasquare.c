@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int side;
+    int s;
     printf("Enter side");
-    scanf("%d", &side);
-    printf("%d", side*side);
+    scanf("%d", &s);
+    printf("%d", s*s);
     return 0;
 }
