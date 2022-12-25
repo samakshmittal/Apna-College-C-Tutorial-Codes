@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-    int r;
+    int ra;
     printf("Enter radius");
-    scanf("%d", &r);
-    printf("%f", (M_PI)*r*r);
+    scanf("%d", &ra);
+    printf("%f", (M_PI)*ra*ra);
     return 0;
 }
