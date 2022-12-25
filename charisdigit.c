@@ -4,7 +4,7 @@ int main(){
     printf("Enter a");
     scanf("%c", &a);
     if (a>='0' && a<='9')
-        printf("%c is a digit", a);
+        printf("%c is digit", a);
     else{
         printf("Not a digit");
     }
