@@ -5,7 +5,7 @@ int main(){
     float n;
     printf("Enter temperature in celcius");
     scanf("%f", &n);
-    printf("%f", fahrenheit(n));
+    printf("Temperature in Fahrenheit = %f", fahrenheit(n));
     return 0;
 }
 float fahrenheit(float n){
