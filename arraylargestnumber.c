@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n, x=0, m;
+    int n, m;
     printf("Enter number of elements in array");
     scanf("%d", &n);
     int arr[n];
@@ -9,21 +9,16 @@ int main(){
         scanf("%d", &arr[i]);
     }
     for(int i=0; i<n; i++){
+        int x=0;
         for(int j=0; j<n; j++){
             if (arr[i]<arr[j]){
                 x=1;
-                break;
-            }
-            else {
-                x=0;
             }
         }
-        if(x==0){
-            m=arr[i];
+        if(x!=1){
+            printf("%d is largest", arr[i]);
+            break;
         }
-    }
-    if(x==0){
-        printf("%d is largest", m);
     }
     return 0;
 }
