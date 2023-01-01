@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <string.h>
-int main(){
-    char str[100], a;
-    int x=0;
-    printf("Enter string");
-    scanf("%s", str);
-    printf("Enter character to be found");
-    scanf("%c", &a);
+void checkchar(char str[], char ch){
     for(int i=0; str[i]!='\0'; i++){
-        if(str[i]==a){
-            x=1;
+        if (str[i]==ch){
+            printf("character is present");
+            return;
         }
     }
-    if(x==1){
-    printf("%c is present", a);
-    }
+    printf("character is not present");
+}
+int main(){
+    char str[100];
+    printf("Enter string");
+    scanf("%s", str);
+    char ch='a';
+    checkchar(str,ch);
     return 0;
 }
