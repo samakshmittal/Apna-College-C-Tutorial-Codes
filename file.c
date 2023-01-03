@@ -13,5 +13,6 @@ int main(){
     printf("Number = %d\n", ch);
     fscanf(fptr, "%d", &ch);
     printf("Number = %d\n", ch);
+    fclose(fptr);
     return 0;
 }
